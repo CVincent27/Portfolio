@@ -27,15 +27,12 @@ main {
   margin-bottom: 40px;
 }
 
-#skills {
-  margin-bottom: 40px;
-}
 #skills .all_skills {
   text-align: center;
 }
-#skills .all_skills i {
-  font-size: 3em;
-  margin: 10px;
+#skills .all_skills .skill-icon {
+  width: 60px;
+  padding: 12px;
 }
 
 #project {

@@ -5,8 +5,10 @@ document.addEventListener('DOMContentLoaded', function () {
         .then(data => {
             const skillsContainer = document.getElementById('skills-container');
             data.skills.forEach(skill => {
-                const skillElement = document.createElement('i');
-                skillElement.className = skill.icon; // Ajoute l'icône
+                skillElement = document.createElement('img');
+                skillElement.src = skill.icon; 
+                skillElement.alt = 'Skill Icon';
+                skillElement.classList.add('skill-icon');
                 skillsContainer.appendChild(skillElement);
             });
         })
