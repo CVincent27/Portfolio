@@ -1,22 +1,27 @@
 document.addEventListener('DOMContentLoaded', function () {
-    // Charger les compétences
+    let skillsData = {};
+
     fetch('skills.json')
         .then(response => response.json())
         .then(data => {
             const skillsContainer = document.getElementById('skills-container');
-            data.skills.forEach(skill => {
-                skillElement = document.createElement('img');
-                skillElement.src = skill.icon; 
-                skillElement.alt = 'Skill Icon';
+            skillsData = data.skills.reduce((acc, skill) => {
+                const skillName = skill.icon.split('/').pop();
+                acc[skillName] = skill.icon;
+
+                const skillElement = document.createElement('img');
+                skillElement.src = skill.icon;
+                skillElement.alt = skillName;
                 skillElement.classList.add('skill-icon');
                 skillsContainer.appendChild(skillElement);
-            });
+
+                return acc;
+            }, {});
         })
         .catch(error => {
             console.error('Erreur lors du chargement des compétences :', error);
         });
 
-    // Charger les projets
     fetch('projets.json')
         .then(response => response.json())
         .then(data => {
@@ -28,7 +33,11 @@ document.addEventListener('DOMContentLoaded', function () {
                 const projectElement = document.createElement('div');
                 projectElement.className = 'project';
 
-                const skills = project.skills.map(skill => `<i class="${skill}"></i>`).join(' ');
+                const projectSkills = project.skills.map(skillPath => {
+                    const skillName = skillPath.split('/').pop();
+                    const skillIcon = skillsData[skillName];
+                    return skillIcon ? `<img src="${skillIcon}" alt="Skill icon" class="project-skill-icon" />` : '';
+                }).join(' ');
 
                 projectElement.innerHTML = `
                     <a href="${project.github}" target="_blank"> 
@@ -36,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     </a>
                     <h3>${project.title}</h3>
                     <p>${project.description}</p>
-                    <div class="skills">${skills}</div>
+                    <div class="skills">${projectSkills}</div>
                     <a href="${project.github}" class="github-link" target="_blank">Voir sur GitHub</a>
                 `;
                 projectsList.appendChild(projectElement);
@@ -47,5 +56,4 @@ document.addEventListener('DOMContentLoaded', function () {
         .catch(error => {
             console.error('Erreur lors de la récupération des projets:', error);
         });
-
 });
