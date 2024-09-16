@@ -61,6 +61,12 @@ main {
         box-sizing: border-box;
         flex-grow: 1;
 
+        .skills {
+            .project-skill-icon {
+                width: 30px;
+            }
+        }
+
     }
     .projects-list {
         display: flex;

@@ -51,6 +51,9 @@ main {
   box-sizing: border-box;
   flex-grow: 1;
 }
+#project .project .skills .project-skill-icon {
+  width: 30px;
+}
 #project .projects-list {
   display: flex;
   flex-wrap: wrap;
