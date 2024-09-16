@@ -1,12 +1,8 @@
 {
   "skills": [
-    { "icon": "fab fa-html5" },
-    { "icon": "fab fa-css3-alt" },
-    { "icon": "fab fa-sass" },
-    { "icon": "fab fa-git" },
-    { "icon": "fab fa-github" },
-    { "icon": "fab fa-js" },
-    { "icon": "fab fa-node" },
-    { "icon": "fab fa-react" }
+    { "icon": "assets/skills/exceller.png" },
+    { "icon": "assets/skills/tableau-de-bord.png" },
+    { "icon": "assets/skills/serveur-sql.png" },
+    { "icon": "assets/skills/python.png" }
   ]
 }
