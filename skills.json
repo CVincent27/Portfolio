@@ -1,0 +1,12 @@
+{
+  "skills": [
+    { "icon": "fab fa-html5" },
+    { "icon": "fab fa-css3-alt" },
+    { "icon": "fab fa-sass" },
+    { "icon": "fab fa-git" },
+    { "icon": "fab fa-github" },
+    { "icon": "fab fa-js" },
+    { "icon": "fab fa-node" },
+    { "icon": "fab fa-react" }
+  ]
+}

@@ -1,0 +1,44 @@
+[
+    {
+        "title": "Projet 1",
+        "description": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
+        "skills": ["fab fa-html5", "fab fa-css3-alt"],
+        "github": "https://github.com/CVincent27/P3---Booki-App",
+        "img": "./assets/booki.png"
+    },
+    {
+        "title": "Projet 2",
+        "description": "Améliorez l'interface d'un site mobile avec des animations CSS",
+        "skills": ["fab fa-sass", "fab fa-git", "fab fa-github"],
+        "github": "https://github.com/CVincent27/P4---Ohmyfood",
+        "img": "./assets/ohmyfood.png"
+    },
+    {
+        "title": "Projet 3",
+        "description": "Créez une page web dynamique avec JavaScript",
+        "skills": ["fab fa-js"],
+        "github": "https://github.com/CVincent27/P6-Portfolio-architecte-sophie-bluel",
+        "img": "./assets/sophie_bluel.png"
+    },
+    {
+        "title": "Projet 4",
+        "description": "Créez une application web de location immobilière avec React",
+        "skills": ["fab fa-react"],
+        "github": "https://github.com/CVincent27/P7---Kasa-app-vite",
+        "img": "./assets/kasa.png"
+    },
+    {
+        "title": "Projet 5",
+        "description": "Implémentez le front-end d'une application bancaire avec React",
+        "skills": ["fab fa-node"],
+        "github": "https://github.com/CVincent27/P7---Kasa-app-vite",
+        "img": "./assets/argentBank.png"
+    },
+    {
+        "title": "Projet 6",
+        "description": "Débuggez le site d'une agence événementiel",
+        "skills": ["fab fa-react"],
+        "github": "https://github.com/CVincent27/P9---724Events",
+        "img": "./assets/724event.png"
+    }
+]
