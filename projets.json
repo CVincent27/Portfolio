@@ -1,25 +1,23 @@
 [
     {
-        "title": "Projet data analyse marketing",
-        "description": "Analyse des ventes fictives d’une entreprise de ventes de smartphones et accessoires.",
-        "skills": ["./assets/skills/python.png","./assets/skills/tableau-de-bord.png"],
-        "github": "https://github.com/CVincent27/01.Analyse_marketing",
-        "img": "./assets/booki.png"
-    },
-
-    {
         "title": "Projet prix du sans plomb 95 dans le département du Nord",
         "description": "Analyse des prix du sans plomb 95 dans les stations essences du département du Nord.",
         "skills": ["./assets/skills/exceller.png","./assets/skills/serveur-sql.png","./assets/skills/tableau-de-bord.png"],
         "github": "https://github.com/CVincent27/P3---Booki-App",
-        "img": "./assets/booki.png"
+        "img": "./assets/projet-station-essence.png"
     },
-
+    {
+        "title": "Projet data analyse marketing",
+        "description": "Analyse des ventes fictives d’une entreprise de ventes de smartphones et accessoires.",
+        "skills": ["./assets/skills/python.png","./assets/skills/tableau-de-bord.png"],
+        "github": "https://github.com/CVincent27/01.Analyse_marketing",
+        "img": "./assets/projet-smartphone.png"
+    },
     {
         "title": "Projet analyse du dataset des passagers du Titanic",
         "description": "Introduction à la librairie Pandas",
         "skills": ["./assets/skills/python.png"],
         "github": "https://github.com/CVincent27/02.Projet-data-Titanic",
-        "img": "./assets/booki.png"
+        "img": "./assets/projet-titanic.png"
     }
 ]
