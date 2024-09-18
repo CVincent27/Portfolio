@@ -30,8 +30,13 @@ main {
 }
 
 #presentation {
-    margin-bottom: 40px;
+    line-height: 1.5; 
+    
+    p {
+        font-size: 18px; 
+    }
 }
+
 
 #skills {
     // margin-bottom: 40px;
