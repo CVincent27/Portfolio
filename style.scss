@@ -27,10 +27,16 @@ header {
 
 main {
     padding: 20px;
+    max-width: 1200px; 
+    margin: 0 auto;
 }
 
 #presentation {
     line-height: 1.5; 
+
+    h2 {
+        margin: 0;
+    }
     
     p {
         font-size: 18px; 
@@ -39,7 +45,10 @@ main {
 
 
 #skills {
-    // margin-bottom: 40px;
+
+    h2 {
+        margin: 0;
+    }
     .all_skills {
         text-align: center;
 
@@ -48,6 +57,13 @@ main {
             padding: 12px;
         }
     }
+}
+#presentation, #skills {
+    border: 1px solid #ccc; 
+    padding: 20px; /* Ajoute un espace intérieur */
+    margin-bottom: 20px; /* Ajoute un espace entre les sections */
+    border-radius: 5px; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 #project {
