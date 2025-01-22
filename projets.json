@@ -1,10 +1,11 @@
 [
     {
-        "title": "Projet prix du sans plomb 95 dans le département du Nord",
-        "description": "Analyse des prix du sans plomb 95 dans les stations essences du département du Nord.",
-        "skills": ["./assets/skills/exceller.png","./assets/skills/serveur-sql.png","./assets/skills/tableau-de-bord.png"],
-        "github": "https://github.com/CVincent27/03.Projet-analyse-essence-Nord",
-        "img": "./assets/projet-station-essence.png"
+      "title": "Projet prix du sans plomb 95 dans le département du Nord",
+      "description": "Analyse des prix du sans plomb 95 dans les stations essences du département du Nord.",
+      "img": "./assets/projet-station-essence.png",
+      "github": "https://github.com/CVincent27/03.Projet-analyse-essence-Nord",
+      "skills": ["./assets/skills/exceller.png","./assets/skills/serveur-sql.png","./assets/skills/tableau-de-bord.png"],
+      "type": "data_analyst"
     },
     {
         "title": "Projet data analyse marketing",
@@ -19,5 +20,14 @@
         "skills": ["./assets/skills/python.png"],
         "github": "https://github.com/CVincent27/02.Projet-data-Titanic",
         "img": "./assets/projet-titanic.png"
+    },
+    {
+      "title": "Projet Spotify",
+      "description": "Création d'une pipeline en Python qui télecharge les data des musiques récemments écoutées à partir de mon compte Spotify",
+      "img": "assets/images/projet2.jpg",
+      "github": "https://github.com/CVincent27/Data_engineering_01_Spotify",
+      "skills": ["assets/skills/python.png","./assets/skills/serveur-sql.png","./assets/skills/ETL.png"],
+      "type": "data_engineer"
     }
-]
+  ]
+  
