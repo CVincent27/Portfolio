@@ -5,17 +5,23 @@ document.addEventListener('DOMContentLoaded', function () {
         .then(response => response.json())
         .then(data => {
             const skillsContainer = document.getElementById('skills-container');
-            skillsData = data.skills.reduce((acc, skill) => {
-                const skillName = skill.icon.split('/').pop();
-                acc[skillName] = skill.icon;
+            data.skills.forEach(skill => {
+                const skillElement = document.createElement('div');
+                skillElement.classList.add('skill-item');
 
-                const skillElement = document.createElement('img');
-                skillElement.src = skill.icon;
-                skillElement.alt = skillName;
-                skillElement.classList.add('skill-icon');
+                const imgElement = document.createElement('img');
+                imgElement.src = skill.icon;
+                imgElement.alt = skill.name;
+                imgElement.classList.add('skill-icon');
+
+                // Ajout du texte (nom du skill) caché au départ
+                const skillText = document.createElement('span');
+                skillText.classList.add('skill-text');
+                skillText.innerText = skill.name;
+
+                skillElement.appendChild(imgElement);
+                skillElement.appendChild(skillText);
                 skillsContainer.appendChild(skillElement);
-
-                return acc;
             }, {});
         })
         .catch(error => {

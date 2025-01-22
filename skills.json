@@ -1,10 +1,8 @@
 {
   "skills": [
-    { "icon": "assets/skills/python.png" },
-    { "icon": "assets/skills/serveur-sql.png" },
-    { "icon": "assets/skills/exceller.png" },
-    { "icon": "assets/skills/tableau-de-bord.png" }
-    
-    
+    { "icon": "assets/skills/python.png", "name": "Python" },
+    { "icon": "assets/skills/serveur-sql.png", "name": "SQL" },
+    { "icon": "assets/skills/data-modelling.png", "name": "Data Modeling" },
+    { "icon": "assets/skills/data-warehouse.png", "name": "Data Warehousing" }
   ]
 }
