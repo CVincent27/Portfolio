@@ -12,14 +12,16 @@
         "description": "Analyse des ventes fictives d’une entreprise de ventes de smartphones et accessoires.",
         "skills": ["./assets/skills/python.png","./assets/skills/tableau-de-bord.png"],
         "github": "https://github.com/CVincent27/01.Analyse_marketing",
-        "img": "./assets/projet-smartphone.png"
+        "img": "./assets/projet-smartphone.png",
+        "type": "data_analyst"
     },
     {
         "title": "Projet analyse du dataset des passagers du Titanic",
         "description": "Introduction à la librairie Pandas",
         "skills": ["./assets/skills/python.png"],
         "github": "https://github.com/CVincent27/02.Projet-data-Titanic",
-        "img": "./assets/projet-titanic.png"
+        "img": "./assets/projet-titanic.png",
+        "type": "data_analyst"
     },
     {
       "title": "Projet Spotify",
