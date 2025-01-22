@@ -1,8 +1,10 @@
 {
   "skills": [
-    { "icon": "assets/skills/exceller.png" },
-    { "icon": "assets/skills/tableau-de-bord.png" },
+    { "icon": "assets/skills/python.png" },
     { "icon": "assets/skills/serveur-sql.png" },
-    { "icon": "assets/skills/python.png" }
+    { "icon": "assets/skills/exceller.png" },
+    { "icon": "assets/skills/tableau-de-bord.png" }
+    
+    
   ]
 }
