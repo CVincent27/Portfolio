@@ -26,9 +26,9 @@
     {
       "title": "Projet Spotify",
       "description": "Création d'une pipeline en Python qui télecharge les data des musiques récemments écoutées à partir de mon compte Spotify",
-      "img": "assets/images/projet2.jpg",
       "github": "https://github.com/CVincent27/Data_engineering_01_Spotify",
       "skills": ["assets/skills/python.png","./assets/skills/serveur-sql.png","./assets/skills/ETL.png"],
+      "img": "./assets/projet_spotify.png",
       "type": "data_engineer"
     }
   ]
