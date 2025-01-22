@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     let skillsData = {};
 
+    // Charger skills depuis json
     fetch('skills.json')
         .then(response => response.json())
         .then(data => {
@@ -22,42 +23,43 @@ document.addEventListener('DOMContentLoaded', function () {
                 skillElement.appendChild(imgElement);
                 skillElement.appendChild(skillText);
                 skillsContainer.appendChild(skillElement);
-            }, {});
+            });
         })
         .catch(error => {
             console.error('Erreur lors du chargement des compétences :', error);
         });
 
+    // load projet et separation de-da
     fetch('projets.json')
         .then(response => response.json())
         .then(data => {
-            const container = document.getElementById('project');
-            const projectsList = document.createElement('div');
-            projectsList.className = 'projects-list';
+            const analystContainer = document.getElementById('analyst-list');
+            const engineerContainer = document.getElementById('engineer-list');
 
             data.forEach(project => {
                 const projectElement = document.createElement('div');
                 projectElement.className = 'project';
 
                 const projectSkills = project.skills.map(skillPath => {
-                    const skillName = skillPath.split('/').pop();
-                    const skillIcon = skillsData[skillName];
-                    return skillIcon ? `<img src="${skillIcon}" alt="Skill icon" class="project-skill-icon" />` : '';
+                    return `<img src="${skillPath}" alt="Skill icon" class="project-skill-icon" />`;
                 }).join(' ');
 
                 projectElement.innerHTML = `
                     <a href="${project.github}" target="_blank"> 
-                        <img src="${project.img}" alt="${project.title} image" class="project-img"/>
+                        <img src="${project.img}" alt="${project.title}" class="project-img"/>
                     </a>
                     <h3>${project.title}</h3>
                     <p>${project.description}</p>
                     <div class="skills">${projectSkills}</div>
                     <a href="${project.github}" class="github-link" target="_blank">Voir sur GitHub</a>
                 `;
-                projectsList.appendChild(projectElement);
-            });
 
-            container.appendChild(projectsList);
+                if (project.type === "data_analyst") {
+                    analystContainer.appendChild(projectElement);
+                } else if (project.type === "data_engineer") {
+                    engineerContainer.appendChild(projectElement);
+                }
+            });
         })
         .catch(error => {
             console.error('Erreur lors de la récupération des projets:', error);
