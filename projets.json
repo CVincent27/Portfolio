@@ -30,6 +30,14 @@
       "skills": ["assets/skills/python.png","./assets/skills/serveur-sql.png","./assets/skills/ETL.png"],
       "img": "./assets/projet_spotify.png",
       "type": "data_engineer"
+    },
+    {
+      "title": "Projet SQL: Gestion d'une bibliothèque",
+      "description": "1er projet de mon parcours d'apprentissage du métier de data engineer",
+      "github": "https://github.com/CVincent27/SQL_Projet_Books",
+      "skills": ["./assets/skills/serveur-sql.png"],
+      "img": "./assets/projet_SQL.png",
+      "type": "data_engineer"
     }
   ]
   
