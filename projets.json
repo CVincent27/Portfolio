@@ -22,7 +22,7 @@
       "img": "./assets/projet-titanic.png"
     }
   ],
-  "ml_engineer": [
+  "data_engineer": [
     {
       "title": "Projet Spotify",
       "description": "Création d'une pipeline en Python qui télécharge les data des musiques récemment écoutées à partir de mon compte Spotify",
