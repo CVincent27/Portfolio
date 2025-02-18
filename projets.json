@@ -24,17 +24,24 @@
   ],
   "data_engineer": [
     {
-      "title": "Projet Spotify",
-      "description": "Création d'une pipeline en Python qui télécharge les data des musiques récemment écoutées à partir de mon compte Spotify",
+      "title": "Projet ETL Spotify",
+      "description": "Création d'un pipeline en Python qui télécharge les données des musiques récemments écoutées à partir de mon compte Spotify",
       "github": "https://github.com/CVincent27/Data_engineering_01_Spotify",
       "skills": ["assets/skills/python.png","./assets/skills/serveur-sql.png","./assets/skills/ETL.png"],
       "img": "./assets/projet_spotify.png"
     },
     {
+      "title": "Projet Python: API OpenWeather",
+      "description": "2ème projet de mon parcours d'apprentissage du métier de data engineer",
+      "github": "https://github.com/CVincent27/DE_02_API_Weather",
+      "skills": ["./assets/skills/python.png", "./assets/skills/data-modelling.png"],
+      "img": "./assets/projet-weather.jpg"
+    },
+    {
       "title": "Projet SQL: Gestion d'une bibliothèque",
       "description": "1er projet de mon parcours d'apprentissage du métier de data engineer",
       "github": "https://github.com/CVincent27/SQL_Projet_Books",
-      "skills": ["./assets/skills/serveur-sql.png"],
+      "skills": ["./assets/skills/serveur-sql.png", "./assets/skills/data-modelling.png"],
       "img": "./assets/projet_SQL.png"
     }
   ]
