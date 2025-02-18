@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
         .then(response => response.json())
         .then(data => {
             const analystContainer = document.getElementById('analyst-list');
-            const engineerContainer = document.getElementById('ml-list');
+            const engineerContainer = document.getElementById('engineer-list');
 
             for (const type in data) {
                 data[type].forEach(project => {
@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                     if (type === "data_analyst") {
                         analystContainer.appendChild(projectElement);
-                    } else if (type === "ml_engineer") {
+                    } else if (type === "data_engineer") {
                         engineerContainer.appendChild(projectElement);
                     }
                 });
