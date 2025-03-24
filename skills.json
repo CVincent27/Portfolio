@@ -2,9 +2,9 @@
   "skills": [
     { "icon": "assets/skills/python.png", "name": "Python" },
     { "icon": "assets/skills/serveur-sql.png", "name": "SQL" },
-    { "icon": "assets/skills/tableau-de-bord.png", "name": "Dashboarding" },
     { "icon": "assets/skills/data-modelling.png", "name": "Data modeling" },
-    { "icon": "assets/skills/data-warehouse.png", "name": "Data warehousing" },
+    { "icon": "assets/skills/spark.png", "name": "Apache Spark" },
+    { "icon": "assets/skills/big_data.jpg", "name": "Big Data" },
     { "icon": "assets/skills/ETL.png", "name": "ETL" }
   ]
 }
