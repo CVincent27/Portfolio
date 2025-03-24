@@ -24,6 +24,13 @@
   ],
   "data_engineer": [
     {
+      "title": "Projet Spark: Pipeline ETL V'Lille",
+      "description": "Projet d'ETL via l'API V'Lille vers BigQuery",
+      "github": "https://github.com/CVincent27/DE_05_ETL_VLille_Spark",
+      "skills": ["./assets/skills/spark.png", "./assets/skills/big_data.jpg", "./assets/skills/airflow.png"],
+      "img": "./assets/projet_spark.png"
+    },
+    {
       "title": "Projet ETL Spotify",
       "description": "Création d'un pipeline en Python qui télécharge les données des musiques récemments écoutées à partir de mon compte Spotify",
       "github": "https://github.com/CVincent27/Data_engineering_01_Spotify",
@@ -43,13 +50,6 @@
       "github": "https://github.com/CVincent27/SQL_Projet_Books",
       "skills": ["./assets/skills/serveur-sql.png", "./assets/skills/data-modelling.png"],
       "img": "./assets/projet_SQL.png"
-    },
-    {
-      "title": "Projet Spark: Pipeline ETL V'Lille",
-      "description": "Projet d'ETL via l'API V'Lille vers BigQuery",
-      "github": "https://github.com/CVincent27/DE_05_ETL_VLille_Spark",
-      "skills": ["./assets/skills/spark.png", "./assets/skills/big_data", "./assets/skills/airflow.png"],
-      "img": "./assets/projet_spark.png"
     }
   ]
 }

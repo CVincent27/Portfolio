@@ -5,6 +5,7 @@
     { "icon": "assets/skills/data-modelling.png", "name": "Data modeling" },
     { "icon": "assets/skills/spark.png", "name": "Apache Spark" },
     { "icon": "assets/skills/big_data.jpg", "name": "Big Data" },
-    { "icon": "assets/skills/ETL.png", "name": "ETL" }
+    { "icon": "assets/skills/ETL.png", "name": "ETL" },
+    { "icon": "assets/skills/airflow.png", "name": "Airflow" }
   ]
 }

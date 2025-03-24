@@ -66,9 +66,8 @@ main {
             display: inline-block;
             text-align: center;
 
-            .skill-icon {
-                width: 60px;        // Largeur fixe
-                height: 60px;       // Hauteur fixe
+            .skill-icon {    
+                height: 60px;  
                 padding: 12px;
                 object-fit: contain;  // Pour éviter la déformation de l'image
                 transition: transform 0.2s;
