@@ -1,33 +1,10 @@
 {
-  "data_analyst": [
-    {
-      "title": "Projet prix du sans plomb 95 dans le département du Nord et du Pas-de-Calais",
-      "description": "Analyse des prix du sans plomb 95 dans les stations essences du département du Nord et du Pas-de-Calais.",
-      "img": "./assets/projet-station-essence.png",
-      "github": "https://github.com/CVincent27/DA_03_prix_essence_Nord",
-      "skills": ["./assets/skills/exceller.png","./assets/skills/serveur-sql.png","./assets/skills/tableau-de-bord.png"]
-    },
-    {
-      "title": "Projet data analyse marketing",
-      "description": "Analyse des ventes fictives d’une entreprise de ventes de smartphones et accessoires.",
-      "skills": ["./assets/skills/python.png","./assets/skills/tableau-de-bord.png"],
-      "github": "https://github.com/CVincent27/01.Analyse_marketing",
-      "img": "./assets/projet-smartphone.png"
-    },
-    {
-      "title": "Projet analyse du dataset des passagers du Titanic",
-      "description": "Introduction à la librairie Pandas",
-      "skills": ["./assets/skills/python.png"],
-      "github": "https://github.com/CVincent27/02.Projet-data-Titanic",
-      "img": "./assets/projet-titanic.png"
-    }
-  ],
   "data_engineer": [
     {
       "title": "Projet Spark: Pipeline ETL V'Lille",
-      "description": "Projet d'ETL via l'API V'Lille vers BigQuery",
+      "description": "Gestion d'un pipeline ETL autour des données V'Lille via l'api data MEL",
       "github": "https://github.com/CVincent27/DE_05_ETL_VLille_Spark",
-      "skills": ["./assets/skills/spark.png", "./assets/skills/big_data.jpg", "./assets/skills/airflow.png"],
+      "skills": ["./assets/skills/spark.png", "./assets/skills/python.png", "./assets/skills/airflow.png"],
       "img": "./assets/projet_spark.png"
     },
     {
